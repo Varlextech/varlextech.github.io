@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Onederlend · Varlextech Limited</title>
+<meta name="description" content="Privacy Policy for Onederlend (com.varlextech.onederlend), a Bitfinex funding-lending automation service developed and operated by Varlextech Limited.">
+<style>
+  :root {
+    --ink: #1b2333;
+    --muted: #5a6478;
+    --accent: #4a6cf7;
+    --line: #e4e8f0;
+    --bg-soft: #f6f8fc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    line-height: 1.65;
+    background: #fff;
+  }
+  header {
+    background: linear-gradient(135deg, #101736 0%, #27356e 60%, #4a6cf7 130%);
+    color: #fff;
+    padding: 56px 24px 48px;
+  }
+  header .wrap, main .wrap { max-width: 780px; margin: 0 auto; }
+  header h1 { margin: 0 0 6px; font-size: 2rem; letter-spacing: 0.5px; }
+  header .sub { color: #c9d4ff; font-size: 1rem; margin: 0; }
+  .identity {
+    max-width: 780px;
+    margin: -28px auto 0;
+    padding: 0 24px;
+  }
+  .identity .card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(16, 23, 54, 0.08);
+    padding: 18px 22px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 6px 26px;
+    font-size: 0.95rem;
+  }
+  .identity dt { color: var(--muted); font-weight: 600; }
+  .identity dd { margin: 0; }
+  .identity code {
+    background: var(--bg-soft);
+    padding: 1px 7px;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  main { padding: 36px 0 64px; }
+  main .wrap { padding: 0 24px; }
+  h2 {
+    margin: 42px 0 12px;
+    font-size: 1.3rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  h3 { margin: 24px 0 8px; font-size: 1.05rem; }
+  p { margin: 10px 0; }
+  ul { margin: 10px 0; padding-left: 22px; }
+  li { margin: 5px 0; }
+  a { color: var(--accent); }
+  .updated {
+    display: inline-block;
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 10px;
+  }
+  .note {
+    background: var(--bg-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    margin: 14px 0;
+    font-size: 0.95rem;
+  }
+  table.sdk {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    font-size: 0.93rem;
+  }
+  table.sdk th, table.sdk td {
+    border: 1px solid var(--line);
+    padding: 9px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  table.sdk th { background: var(--bg-soft); }
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 26px 24px 40px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="sub">Onederlend — Bitfinex funding-lending automation by Varlextech Limited</p>
+    <span class="updated" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#e6ebff;">Effective date: October 30, 2026</span>
+  </div>
+</header>
+
+<div class="identity">
+  <dl class="card">
+    <dt>App</dt><dd><strong>Onederlend</strong></dd>
+    <dt>Package name</dt><dd><code>com.varlextech.onederlend</code> (Android) · <code>com.onederlend.mobile</code> (iOS)</dd>
+    <dt>Developer / Operator</dt><dd><strong>Varlextech Limited</strong></dd>
+    <dt>Contact</dt><dd><a href="mailto:varlextechltd@gmail.com">varlextechltd@gmail.com</a></dd>
+  </dl>
+</div>
+
+<main>
+<div class="wrap">
+
+<p>
+  This Privacy Policy applies to the <strong>Onederlend</strong> service —
+  the mobile application (Android package name
+  <code>com.varlextech.onederlend</code>) and the web dashboard that powers it
+  (together, the "Service") — developed and operated by
+  <strong>Varlextech Limited</strong> ("Varlextech Limited", "we", "us", or
+  "our"). Onederlend automates funding (margin-funding) lending on the
+  Bitfinex exchange using restricted API credentials that you connect to your
+  account.
+</p>
+<p>
+  Unlike a standalone app, Onederlend is a hosted service: your account,
+  encrypted exchange credentials, lending records, and billing state are
+  stored on servers we operate. This policy explains what we collect, why,
+  the third-party services involved, and the choices you have.
+</p>
+<p>
+  By registering for or using the Service, you agree to the practices
+  described in this policy. If you do not agree, please do not use the
+  Service.
+</p>
+
+<h2>1. Summary</h2>
+<ul>
+  <li>Onederlend stores your account and exchange credentials on our servers.
+      Bitfinex API keys are <strong>encrypted at rest</strong> and keys with
+      withdrawal permission are <strong>rejected at setup</strong> — the
+      Service can lend but can never move funds out of your exchange
+      account.</li>
+  <li>We collect only what the Service needs: your email or sign-in identity,
+      security settings (optional TOTP/passkeys), Bitfinex credentials, the
+      balances/lending data your own Bitfinex account returns, and billing
+      records. <strong>No advertising, no analytics or tracking SDKs, no
+      in-app purchases.</strong></li>
+  <li>Payments are made in USDT (TRC-20) — we never see or store payment card
+      details.</li>
+  <li>You can pause lending, disconnect Bitfinex, and request account
+      deletion at any time.</li>
+</ul>
+
+<h2>2. Information we collect</h2>
+
+<h3>2.1 Account and identity</h3>
+<ul>
+  <li><strong>Email address and password</strong> — passwords are stored only
+      as Argon2 hashes; we never store plaintext passwords.</li>
+  <li><strong>OAuth sign-in identity</strong> — if you sign in with Google or
+      Apple, we receive an ID token containing your provider account ID, and
+      (where shared) your name and email address.</li>
+  <li><strong>Security settings</strong> — optional TOTP (authenticator-app)
+      secrets, stored encrypted; WebAuthn/passkey public credentials; and
+      hashed recovery codes.</li>
+  <li><strong>Sessions</strong> — random session identifiers stored
+      server-side; browsers receive an <code>HttpOnly</code>,
+      <code>SameSite=Lax</code> session cookie and a CSRF token, and the
+      mobile app receives short-lived access tokens plus a rotating refresh
+      token stored in your device's secure storage (Keychain /
+      Android Keystore).</li>
+</ul>
+
+<h3>2.2 Exchange credentials and financial data</h3>
+<ul>
+  <li><strong>Bitfinex API credentials</strong> — the API key and secret you
+      connect, encrypted at rest using XChaCha20-Poly1305. Credentials are
+      decrypted only in memory when your lending bot runs or is being
+      validated. Keys carrying withdrawal permission fail activation
+      preflight and cannot be used.</li>
+  <li><strong>Account and lending data</strong> — wallet balances, active
+      loans, pending funding offers, and income history read from your
+      Bitfinex account through the API, plus the order intents, managed
+      offers, and lending records the Service creates for you.</li>
+  <li><strong>Lending settings</strong> — your plan tier, strategy/safety
+      parameters, and bot state (active or paused).</li>
+</ul>
+
+<h3>2.3 Billing and payments</h3>
+<ul>
+  <li><strong>Plan and subscription records</strong> — the plan you choose,
+      trial status, and membership expiry.</li>
+  <li><strong>USDT payment data</strong> — depending on billing mode, either
+      a transfer proof you submit to support, or a personal TRC-20 deposit
+      address generated for your account (the address's private key is stored
+      encrypted). Confirmed payments are recorded as transactions (amount,
+      txid, timestamp). Payment activity is also visible on the public TRON
+      blockchain.</li>
+  <li><strong>No payment cards</strong> — we do not accept, see, or store
+      credit/debit card numbers.</li>
+</ul>
+
+<h3>2.4 Optional communications</h3>
+<ul>
+  <li><strong>Telegram</strong> — if you connect notifications, your Telegram
+      chat ID and chosen notification categories (fills, payments, bot
+      status, risk/errors). Disconnect at any time by sending
+      <code>/stop</code> to the bot or in Security settings.</li>
+  <li><strong>Support correspondence</strong> — messages you send us,
+      including payment proofs.</li>
+</ul>
+
+<h3>2.5 Technical data</h3>
+<ul>
+  <li><strong>Operational logs</strong> — standard server logs (IP address,
+      user agent, request paths, timestamps, error traces) used for security,
+      abuse prevention, and debugging.</li>
+  <li><strong>Device metadata</strong> — platform, OS version, and app version
+      sent by the mobile app for authentication and compatibility.</li>
+</ul>
+
+<h2>3. Information we do not collect</h2>
+<ul>
+  <li>Payment card numbers or bank account details</li>
+  <li>Contacts, photos, precise location, microphone, or camera</li>
+  <li>Advertising identifiers — the Service has no ads and no ad SDKs</li>
+  <li>Behavioral analytics or telemetry — there is no third-party analytics,
+      tracking, or crash-reporting SDK in the app</li>
+  <li>Your Bitfinex account password or 2FA — the Service only ever uses the
+      restricted API credentials you provide</li>
+</ul>
+
+<h2>4. Third-party services</h2>
+<p>
+  The Service integrates the following providers. Each processes data under
+  its own privacy policy.
+</p>
+
+<h3>4.1 Bitfinex (exchange)</h3>
+<p>
+  The Service's core function is calling the Bitfinex API on your behalf
+  using your credentials — reading balances, loans, and history, and placing,
+  replacing, and cancelling funding offers. Whatever you do through the
+  Service is executed inside your own Bitfinex account and is subject to
+  Bitfinex's terms and privacy policy.
+</p>
+<ul>
+  <li>Bitfinex Privacy Policy:
+    <a href="https://www.bitfinex.com/legal/privacy">https://www.bitfinex.com/legal/privacy</a></li>
+</ul>
+
+<h3>4.2 Google and Apple (sign-in)</h3>
+<p>
+  If you choose OAuth sign-in, Google or Apple authenticates you and returns
+  an ID token to the Service. We receive only the identity claims described
+  in Section 2.1.
+</p>
+<ul>
+  <li>Google Privacy Policy:
+    <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+  <li>Apple Privacy Policy:
+    <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></li>
+</ul>
+
+<h3>4.3 TronGrid (payment verification)</h3>
+<p>
+  To confirm USDT (TRC-20) plan payments, the Service queries the TronGrid
+  API for the balance of the deposit address associated with your account.
+  Only the public deposit address is sent; the underlying transactions are
+  public blockchain data.
+</p>
+<ul>
+  <li>TRON / TronGrid:
+    <a href="https://trongrid.io">https://trongrid.io</a></li>
+</ul>
+
+<h3>4.4 NOWPayments (optional checkout)</h3>
+<p>
+  Where enabled, hosted USDT checkout and payment webhooks may be handled by
+  NOWPayments under its own terms and privacy policy.
+</p>
+<ul>
+  <li>NOWPayments:
+    <a href="https://nowpayments.io">https://nowpayments.io</a></li>
+</ul>
+
+<h3>4.5 Telegram (optional notifications)</h3>
+<p>
+  If you connect Telegram, messages you exchange with our bot and your chat
+  ID are processed by Telegram's platform to deliver notifications.
+</p>
+<ul>
+  <li>Telegram Privacy Policy:
+    <a href="https://telegram.org/privacy">https://telegram.org/privacy</a></li>
+</ul>
+
+<h3>4.6 Resend (transactional email)</h3>
+<p>
+  Where enabled, password-reset emails are sent through Resend, which
+  processes your email address and the message content solely to deliver the
+  email.
+</p>
+<ul>
+  <li>Resend Privacy Policy:
+    <a href="https://resend.com/legal/privacy-policy">https://resend.com/legal/privacy-policy</a></li>
+</ul>
+
+<h2>5. How information is used</h2>
+<ul>
+  <li><strong>Core service</strong> — authenticating you, running your
+      lending bot, displaying balances/loans/offers/income, and enforcing
+      your safety limits.</li>
+  <li><strong>Security</strong> — encrypting credentials, enforcing MFA,
+      issuing/revoking sessions and tokens, detecting abuse, and maintaining
+      audit logs.</li>
+  <li><strong>Billing</strong> — tracking trials, confirming payments, and
+      activating or expiring memberships.</li>
+  <li><strong>Communications</strong> — password-reset emails, optional
+      Telegram alerts, and support replies.</li>
+</ul>
+<p>
+  For users in the EEA/UK, the legal bases are: performance of the contract
+  (operating your account, bot, and purchases), legitimate interests
+  (security, fraud prevention, service improvement), legal obligations
+  (records we must keep), and your consent (optional features such as
+  Telegram notifications).
+</p>
+
+<h2>6. Data sharing and sale</h2>
+<p>
+  Varlextech Limited does not sell your personal information and does not
+  share it with third parties for their own marketing. Data is disclosed only
+  to the providers in Section 4 as needed to run the Service, to authorities
+  where legally required, or in connection with a transfer of the business
+  (with notice). Note that USDT payments confirmed on-chain are inherently
+  public on the TRON blockchain.
+</p>
+
+<h2>7. Data retention and deletion</h2>
+<p>
+  Account data, encrypted credentials, lending records, and billing records
+  are retained while your account is active. Deleting your account — by
+  request to
+  <a href="mailto:varlextechltd@gmail.com">varlextechltd@gmail.com</a> —
+  removes your account record, sessions, MFA factors, and encrypted
+  credentials; lending history and payment transactions may be retained for a
+  limited period where required for accounting, fraud, or legal purposes.
+  Disconnecting Bitfinex deletes that credential. Uninstalling the mobile app
+  removes the tokens held in your device's secure storage. Third-party
+  providers retain data per their own policies.
+</p>
+
+<h2>8. Your rights and choices</h2>
+<p>
+  Depending on where you live, you may have rights over your personal data,
+  including the right to access, correct, delete, restrict or object to
+  processing, data portability, and to withdraw consent.
+</p>
+<ul>
+  <li><strong>Access and correct:</strong> view and update your sign-in
+      method, security settings, credentials, and notification preferences in
+      the app's Settings.</li>
+  <li><strong>Pause or disconnect:</strong> pause lending or disconnect
+      Bitfinex at any time — existing loans simply run to maturity, and the
+      credential is deleted.</li>
+  <li><strong>Delete your account:</strong> email
+      <a href="mailto:varlextechltd@gmail.com">varlextechltd@gmail.com</a>
+      from your registered address.</li>
+  <li><strong>Notifications:</strong> control Telegram categories or send
+      <code>/stop</code> to the bot.</li>
+  <li><strong>Cookies:</strong> the web dashboard needs its session cookie to
+      function; it sets no tracking or advertising cookies.</li>
+</ul>
+<p>
+  EEA/UK users may also lodge a complaint with their local data protection
+  authority.
+</p>
+
+<h2>9. Children's privacy</h2>
+<p>
+  Onederlend is a financial service intended for adults and is not directed
+  at anyone under 18 (or the age of majority in your region). We do not
+  knowingly collect personal information from minors. If you believe a minor
+  has registered, please contact us at
+  <a href="mailto:varlextechltd@gmail.com">varlextechltd@gmail.com</a> and we
+  will delete the account.
+</p>
+
+<h2>10. Security</h2>
+<p>
+  Passwords are hashed with Argon2; Bitfinex credentials, TOTP secrets, and
+  wallet keys are encrypted at rest with XChaCha20-Poly1305 under keys held
+  separately from the database; traffic is protected by HTTPS/TLS; sessions
+  and tokens are revocable; and optional TOTP and passkeys add a second
+  factor. Restricted API keys are validated so the Service has no withdrawal
+  capability. No method of transmission or storage is 100% secure, but the
+  Service is designed to minimize data and keep funds in your own exchange
+  account.
+</p>
+
+<h2>11. International data transfers</h2>
+<p>
+  The Service is operated from servers that may be located outside your
+  country, and providers such as Google, Apple, Bitfinex, Telegram, and
+  Resend may process data in the United States and other jurisdictions. Where
+  required, such transfers are covered by the safeguards described in those
+  providers' privacy policies (e.g., Standard Contractual Clauses or adequacy
+  frameworks).
+</p>
+
+<h2>12. Changes to this policy</h2>
+<p>
+  We may update this Privacy Policy from time to time. Any changes will be
+  posted at this URL with an updated "Effective date". Your continued use of
+  the Service after changes take effect constitutes acceptance of the revised
+  policy.
+</p>
+
+<h2>13. Contact us</h2>
+<p>
+  If you have questions about this Privacy Policy or the Service's data
+  practices, contact:
+</p>
+<p>
+  <strong>Varlextech Limited</strong><br>
+  Email: <a href="mailto:varlextechltd@gmail.com">varlextechltd@gmail.com</a>
+</p>
+
+</div>
+</main>
+
+<footer>
+  © 2026 Varlextech Limited · Privacy Policy for Onederlend
+  (<span style="font-family:monospace">com.varlextech.onederlend</span>)
+</footer>
+
+</body>
+</html>
