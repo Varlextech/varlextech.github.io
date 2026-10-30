@@ -1,2 +1,2 @@
 # varlextech.github.io
-Varlextech — legal &amp; privacy pages
+Varlextech Limited — legal & privacy pages
